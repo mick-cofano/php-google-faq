@@ -118,7 +118,27 @@
 
 
 
-      <footer></footer>
+      <footer>
+        <div class="footer-container">
+            <div class="sx">
+                <ul>
+                    <li>Google</li>
+                    <li>Tutto su Google</li>
+                    <li>Privacy</li>
+                    <li>Termini</li>
+                </ul>
+            </div>
+            <div class="dx">
+                <select>
+                    <option value="italiano">Italiano</option>
+                    <option value="inglese">Inglese</option>
+                    <option value="francese">Francese</option>
+                </select>
+            </div>
+        </div>
+      </footer>
+
+
     </div>
 
   </body>
