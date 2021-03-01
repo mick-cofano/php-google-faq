@@ -89,7 +89,21 @@
 
     <div id="page">
       <header>
-
+          <div class="sx-top">
+              <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="logo-google">
+              <h1>
+                  Privacy e termini
+              </h1>
+          </div>
+          <div class="bottom">
+              <ul>
+                  <li>Introduzione</li>
+                  <li>Norme sulla privacy</li>
+                  <li>Termini di servizio</li>
+                  <li>Tecnologie</li>
+                  <li>Domande frequenti</li>
+              </ul>
+          </div>
       </header>
 
       <main>

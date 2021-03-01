@@ -1,5 +1,59 @@
 #page {
 
+  header {
+    width: 100%;
+    height: 130px;
+    background-color: #fff;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+
+    .sx-top {
+      width: 100%;
+      height: calc(100% / 2);
+      display: flex;
+      align-items: center;
+
+      img {
+        padding: 0 20px;
+      }
+
+      h1 {
+        color: gray;
+      }
+    }
+
+    .bottom {
+      ul {
+        display: flex;
+        list-style: none;
+        li {
+          font-size: 18px;
+          color: gray;
+          padding-left: 20px;
+          }
+        li:last-child {
+          color: royalblue;
+        }
+        li:last-child::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: royalblue;
+            margin-top: 10px;
+        }
+      }
+    }
+  }
+
+
+
 
   .main-container {
     margin: 0 auto;
